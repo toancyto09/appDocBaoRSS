@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/customlist_scene">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20px"
+        >
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Tiêu đề"
+            android:textColor="#EE0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="6dp"
+            />
+
+        <TextView
+            android:id="@+id/mota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#111111"
+            android:textSize="16dp"
+            android:padding="6dp"
+            android:text="Mô tả" />
+
+        <TextView
+            android:id="@+id/ngaydang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày đăng"
+            android:textColor="#999999"
+            android:padding="6dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
